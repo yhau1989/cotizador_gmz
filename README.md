@@ -47,10 +47,68 @@ Cotizador de seguros GMZ
   }
 }
 ```
+- No JSON value set
+
+```json
+{
+  "status": {
+    "type": "error",
+    "value": "No JSON value set"
+  }
+}
+```
+
 
 ### Json 
 - Valid JSON but not found data in data base.
-- Valid JSON and found data in data base.
-- No JSON value set
 
+```json
+{
+  "status":{
+  "type": "ok",
+  "value": "Valid JSON but not found data in data base."
+  }
+}
+```
+
+- Valid JSON and found data in data base.
+
+```json
+{
+  "status": {
+    "type": "ok",
+    "value": "Valid JSON and found data in data base."
+  },
+  "planes": [
+    {
+      "id": "4",
+      "rango": "18-24",
+      "razon_social": "VUMI S.A",
+      "nombre_plan": "OPCION 4",
+      "anual": "935.00",
+      "semi_anual": "496.00",
+      "trimestral": null,
+      "bimestral": null,
+      "mensual": null,
+      "dentro_usa": "10000.00",
+      "fuera_usa": null,
+      "estado": "1"
+    },
+    {
+      "id": "5",
+      "rango": "18-24",
+      "razon_social": "VUMI S.A",
+      "nombre_plan": "OPCION 5",
+      "anual": "736.00",
+      "semi_anual": "391.00",
+      "trimestral": null,
+      "bimestral": null,
+      "mensual": null,
+      "dentro_usa": "20000.00",
+      "fuera_usa": null,
+      "estado": "1"
+    }
+  ]
+}
+```
 
