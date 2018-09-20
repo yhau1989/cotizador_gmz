@@ -3,6 +3,6 @@ Cotizador de seguros GMZ
 
 ## Json inpunt
 
-```javascript
+```json
 { "some": "json" }
 ```
